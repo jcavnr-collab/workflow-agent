@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source .venv/bin/activate)",
+      "Bash(python tools/slack_respond.py C0AM2GBP2MV 1773887232.625789)",
+      "Bash(python tools/slack_listener.py)",
+      "Bash(PYTHONUNBUFFERED=1 python -u tools/slack_listener.py)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(source /Users/jonathancavner/WorkflowProject/.venv/bin/activate)",
+      "Bash(pkill:*)"
+    ]
+  }
+}
