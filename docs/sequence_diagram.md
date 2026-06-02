@@ -86,7 +86,7 @@ sequenceDiagram
     SlackAPI-->>User: board link + PNG + Mermaid file in thread
 ```
 
-## Update Flow (change request)
+## Update Flow (change request)J
 
 ```mermaid
 %%{init: {
